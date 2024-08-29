@@ -5,4 +5,11 @@
     <RootNamespace>C42_G02_MVC0_2</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="WWWroot\JS\" />
+    <Folder Include="WWWroot\images\" />
+    <Folder Include="WWWroot\CSS\" />
+    <Folder Include="WWWroot\Lib\" />
+  </ItemGroup>
+
 </Project>
