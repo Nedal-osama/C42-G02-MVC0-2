@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    
+    <link href="~/Lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    @*  Start Header *@
+    <nav>
+        <center>
+             <a href="/Home/Index" class="btn btn-primary">Home</a>
+              <a href="/Home/AboutUs" class="btn btn-warning">About Us</a>
+              <a href="/Home/Privacy" class="btn btn-success">Praivacy</a>
+              <a href="/Home/ContactUs" class="btn btn-danger">Contact Us</a>
+              <a href="/Account/Login" class="btn btn-light">Login</a>
+               <a href="/Account/Register" class="btn btn-info">Register</a>
+            <!-- <a asp-controller="Home" asp-action="Index" class="btn btn-primary"></a>-->
+
+        </center>
+    </nav>
+    @*  End Header *@
+    <div>
+        @RenderBody()
+    </div>
+    @* Start Foter *@
+    <footer>
+        <center>
+            <div>
+                <p>
+                    Coptrights &copy; for route @DateTime.Now
+                </p>
+            </div>
+        </center>
+    </footer>
+    @* End Footer *@
+</body>
+</html>
